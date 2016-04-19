@@ -11,9 +11,9 @@ Download file from (Save as by right clicking) https://bootstrap.pypa.io/get-pip
 ######From terminal simply type "sudo python get-pip.py"
 ####You will need to install SQLAlchemy, Flask
 
-To install  SQLAlchemy: “sudo pip install SQLAlchemy”
+######To install  SQLAlchemy: “sudo pip install SQLAlchemy”
 
-To install Flask: "sudo pip install Flask"
+######To install Flask: "sudo pip install Flask"
 
  
 
