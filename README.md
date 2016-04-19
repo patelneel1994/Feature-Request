@@ -1,16 +1,17 @@
 ## Feature-Request
 ===================
 ###Features of the app
-This app alows user to add client ("Client A, B, and C") requested feature for an existing software. If the same client requests another feature with the same priority the previous feature rquest priority will be pushed down.
+* This app alows user to add client ("Client A, B, and C") requested feature for an existing software. 
+* If the same client requests another feature with the same priority the previous feature rquest priority will be pushed down.
 "Request, Requested Features, Sorted by Clients, JSON Data"
 
-Request allows user to request a feature. 
+* Request allows user to request a feature. 
 
-Requested Features shows all the feature requests from all the clients
+* Requested Features shows all the feature requests from all the clients
 
-Sorted by Clients give Feature Requests by Clients
+* Sorted by Clients give Feature Requests by Clients
 
-JSON Data provides json data of three clients
+* JSON Data provides json data of three clients
 
 
 ####To run the project 
