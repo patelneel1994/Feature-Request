@@ -24,12 +24,15 @@ INSTALLATION
 Here is the link to install "pip" https://pip.pypa.io/en/stable/installing/
 #######OR follow these instructions
 Download file from (Save Page as by right clicking) https://bootstrap.pypa.io/get-pip.py
-#######From terminal simply type `sudo python get-pip.py`
+#######From terminal simply type 
+`sudo python get-pip.py`
 ####You will need to install SQLAlchemy, Flask
 
-#######To install  SQLAlchemy: `sudo pip install SQLAlchemy`
+#######To install  SQLAlchemy: 
+`sudo pip install SQLAlchemy`
 
-#######To install Flask: `sudo pip install Flask`
+#######To install Flask: 
+`sudo pip install Flask`
 
  
 
