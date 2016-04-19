@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bitcore Project</title>
+    <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css" />
+    
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/app.css') }}">
+   <script src="{{ url_for('static', filename='js/app.js')}}"></script> 
+   
+</head>
+
+<body >
+
+    <nav class="navbar navbar-inverse">
+        <div style="list-style-type: none;" id="navBar" class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Features Request</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="">Request</a>
+                    </li>
+                    <li><a href="requests">Rquested Features</a>
+                    </li>
+                    <li ><a href="sortedbyclients">Sorted by Clients</a></li>
+                    </li>
+                     <li ><a href="JSONData">JSON Data</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div style="background: #4CAF50;">
+        <center>
+            <div style="width: 600px;background:  #f2f2f2;">
+                <center>
+
+                    <div id="featureForm" class="modal-body" tabindex="1" role="dialog">
+                        <form class="form-horizontal" style="width: 300px;" action="{{url_for('addedFeature')}}" method = 'POST'>
+                           
+                            <h3>Request a Feature</h3>
+                            <div class="control-group">
+                                <label class="control-label" for="title">Title</label>
+                                <div class="controls">
+                                    <input  name="title" placeholder="Add datepicker for this.         " type="text" id="titleText"></input>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label" for="description">Description</label>
+                                <div class="controls">
+                                    <textarea id="descriptionText" name="description" rows="4" placeholder="Enter the detail for the feature you want to request for!" type="text"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-lable" for="client-name">Client</label>
+                                <div class="controls">
+                                    <select id="selectClient" name="clientname" class="form-control">
+                                        <option selected="selected">Client A</option>
+                                        <option>Client B</option>
+                                        <option>Client C</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label" for="client-priority">Client Priority</label>
+                                <div class="controls">
+                                    <input id="clientPriority" name="clientpriority" placeholder="1 Highest, 2 lower ....." min="1" type="number">
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label" for="target-date">Target Date</label>
+                                <div class="controls">
+                                    <input id="targetDate" placeholder="Pick a date!" name="targetDate" type="text" </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="target-url">Target URL</label>
+                                    <div class="controls">
+                                        <input id="targetURL" placeholder="Store URL" name="targetLink" type="text" </div>
+                                    </div>
+
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="product-area">Product area</label>
+                                        <div class="controls">
+                                            <select id="productArea" class="form-control" name="productArea">
+                                                <option selected="selected">Policies</option>
+                                                <option>Billing</option>
+                                                <option>Claims</option>
+                                                <option>Reports</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div style="padding: 10px;">
+                                      <input type='submit' value='Submit'>
+                                    </div>
+
+                        </form>
+                        </div>
+
+                </center>
+                </div>
+        </center>
+        </div>
+</body>
+
+</html>

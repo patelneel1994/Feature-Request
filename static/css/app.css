@@ -1,0 +1,64 @@
+    
+
+
+
+        body {
+            margin: 10px;
+        }
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+        }
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 2px 5px;
+            margin: 2px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        input[type=text]:focus {
+            border: 3px solid #555;
+        }
+        input[type=submit] {
+            width: 20em;
+            height: 2.5em;
+            padding: 5px 15px;
+            background: #ccc;
+            border: 0 none;
+            cursor: pointer;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        body {
+            margin: 10px;
+        }
+        table {
+            border: 1px solid black;
+            padding: 5px;
+            width: 100%;
+            margin: 10px;
+        }
+        th,
+        td {
+            padding: 13px;
+            text-align: left;
+            border-bottom: 1px solid #dcd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr.even {
+            background-color: #f2f2f2
+        }
+
+
