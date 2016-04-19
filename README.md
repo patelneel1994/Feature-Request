@@ -1,4 +1,7 @@
 ## Feature-Request
+####To run the project 
+You simply use "make" command from 'Feature-Request' directory. Before you run you need to make sure you have the following packages installed on your machine. 
+
 This project is only intended to run on Mac OS X El Capitan Version 10.11.4 
 ####You will need to have "pip" installed 
 ######Pip is a package management system used to install and manage software packages written in Python.
@@ -12,7 +15,6 @@ To install  SQLAlchemy: “sudo pip install SQLAlchemy”
 
 To install Flask: "sudo pip install Flask"
 
-####To run the project 
-You simply use "make" command from 'Feature-Request' directory. 
+ 
 
 To provide server functionality I have used Python. Framework called Flask is mainly used in this with SQLAlachemy to keep up with the data. 
