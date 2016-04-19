@@ -2,6 +2,10 @@
 This project is only intended to run on Mac OS X El Capitan Version 10.11.4 
 ####You will need to have "pip" installed 
 ######Pip is a package management system used to install and manage software packages written in Python.
+Here is the link to install "pip" https://pip.pypa.io/en/stable/installing/
+#######OR follow these instructions
+Download file from (Save as by right clicking) https://bootstrap.pypa.io/get-pip.py
+######From terminal simply type "sudo python get-pip.py"
 ####You will need to install SQLAlchemy, Flask
 
 To install  SQLAlchemy: “sudo pip install SQLAlchemy”
