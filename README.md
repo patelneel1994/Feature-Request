@@ -1,6 +1,7 @@
 ## Feature-Request
 ###Features of the app
 This app alows user to add client ("Client A, B, and C") requested feature for an existing software. If the same client requests another feature with the same priority the previous feature rquest priority will be pushed down.
+/Users/neelll/Desktop/Screen Shot 2016-04-19 at 9.53.33 AM.png
 
 ####To run the project 
 You simply use "make" command from 'Feature-Request' directory. Before you run you need to make sure you have the following packages installed on your machine. 
